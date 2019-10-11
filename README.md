@@ -1,5 +1,11 @@
 # Infinity Gauntlet ✊
 
+
+## Tech/framework used
+
+* [Chalk ](https://github.com/chalk/chalk)
+* [Jest](https://jestjs.io/)
+
 ## Team
 
 This project is maintained by the following person(s) and a bunch of [awesome contributors](https://github.com/MajhiRockzZ/infinity-gauntlet/graphs/contributors).
