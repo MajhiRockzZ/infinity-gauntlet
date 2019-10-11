@@ -15,7 +15,7 @@ describe(tokenize, () => {
     expect(tokenize(input)).toEqual(result);
   });
 
-  it.skip('should ignore whitespace completely', () => {
+  it('should ignore whitespace completely', () => {
     const input = '                  ';
     const result = [];
 
