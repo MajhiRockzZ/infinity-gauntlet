@@ -3,11 +3,33 @@ const { specialForms } = require('./special-forms');
 const { peek, pop } = require('./utilities');
 
 const parenthesize = (tokens) => {
-    return tokens;
+    const token = pop(tokens);
+
+    if(isOpeningParenthesis(token.value)) {
+        const expression = [];
+
+        while (!isClosingParenthesis(peek(tokens).value)) {
+            expression.push(parenthesize(tokens));
+        }
+
+        pop(tokens);
+        return expression;
+    }
+
+    return token;
 };
 
 const parse = (tokens) => {
-    const token = pop(tokens);
+    if(Array.isArray(tokens)) {
+        const [first, ...rest] = tokens;
+        return {
+            type: 'CallExpression',
+            name: first.value,
+            arguments: rest.map(parse),
+        };
+    }
+
+    const token = tokens;2
 
     if(token.type === 'Number') {
         return {

@@ -25,7 +25,7 @@ describe(parse, () => {
     expect(parse(tokens)).toEqual(ast);
   });
 
-  it.skip('should return an AST for a basic data structure', () => {
+  it('should return an AST for a basic data structure', () => {
     const tokens = [
       { type: 'Parenthesis', value: '(' },
       { type: 'Name', value: 'add' },
