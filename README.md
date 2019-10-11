@@ -10,6 +10,8 @@ Size | ![GitHub repo size](https://img.shields.io/github/repo-size/MajhiRockzZ/i
 
 ![](./assets/main.gif)
 
+[![forthebadge](https://forthebadge.com/images/badges/made-with-javascript.svg)](https://forthebadge.com) [![forthebadge](https://forthebadge.com/images/badges/uses-js.svg)](https://forthebadge.com) [![forthebadge](https://forthebadge.com/images/badges/made-with-crayons.svg)](https://forthebadge.com)
+
 ## Code Example
 
 ```
