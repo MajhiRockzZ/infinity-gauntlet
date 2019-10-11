@@ -1,5 +1,7 @@
 # Infinity Gauntlet ✊
 
+![](./assets/main.gif)
+
 
 ## Tech/framework used
 
