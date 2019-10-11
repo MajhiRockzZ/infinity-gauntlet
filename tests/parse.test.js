@@ -48,7 +48,7 @@ describe(parse, () => {
     expect(result).toEqual(ast);
   });
 
-  it.skip('should return an AST for a nested data structure', () => {
+  it('should return an AST for a nested data structure', () => {
     const tokens = [
       { type: 'Parenthesis', value: '(' },
       { type: 'Name', value: 'add' },
