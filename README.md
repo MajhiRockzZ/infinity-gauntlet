@@ -12,6 +12,46 @@
 
 > filename.ig
 
+## Installation
+
+```bash
+git clone https://github.com/MajhiRockzZ/infinity-gauntlet.git
+
+cd infinity-gauntlet
+
+npm install
+```
+
+## How to use?
+
+Globally link the directory
+
+ ```bash
+ npm link
+ ```
+
+* Method I
+
+    ```bash
+      npm start
+    ```
+
+* Method II
+
+    ```bash
+      infinity-gauntlet
+    ```
+
+* Method III
+
+    Or make a file with `.ig` file extension and run the below command in `infinity-gauntlet` directory.
+
+    ```bash
+      infinity-gauntlet run filename.ig
+    ```
+
+
+
 ## Tech/framework used
 
 * [Chalk ](https://github.com/chalk/chalk)
