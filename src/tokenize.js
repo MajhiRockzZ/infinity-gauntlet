@@ -11,10 +11,19 @@ const tokenize = (input) => {
   let cursor = 0;
 
   while (cursor < input.length) {
-    cursor++;
+    const character = input[cursor];
+
+    if (isParenthesis(character)){
+      tokens.push({
+        type: 'Parenthesis',
+        value: character,
+      });
+      cursor++;
+      continue;
+    }
   }
 
-  return tokens[];
+  return tokens;
 };
 
 module.exports = { tokenize };
