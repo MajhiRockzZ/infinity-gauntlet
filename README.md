@@ -2,6 +2,15 @@
 
 ![](./assets/main.gif)
 
+## Code Example
+
+```
+(multiply (add 2 2 (subtract 4 2)))
+```
+
+## Filename extension
+
+> filename.ig
 
 ## Tech/framework used
 
