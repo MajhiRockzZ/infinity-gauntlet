@@ -51,7 +51,7 @@ describe(evaluate, () => {
     expect(result).toBe(6);
   });
 
-  it.skip('should be able to lookup identifiers in the environment', () => {
+  it('should be able to lookup identifiers in the environment', () => {
     const ast = { type: 'Identifier', name: 'pi' };
     expect(evaluate(ast)).toBe(Math.PI);
   });
