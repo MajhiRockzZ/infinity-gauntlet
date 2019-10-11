@@ -80,3 +80,9 @@ This project is maintained by the following person(s) and a bunch of [awesome co
 [![Twitter](https://github.frapsoft.com/social/twitter.png)](https://www.twitter.com/MajhiRockzZ)
 [![Facebook](https://github.frapsoft.com/social/facebook.png)](https://www.facebook.com/sumesh.majhi.5)
 [![Github](https://github.frapsoft.com/social/github.png)](https://github.com/MajhiRockzZ)
+
+## License
+
+This work by [Sumesh Majhi](https://www.twitter.com/MajhiRockzZ) is licensed under a  [MIT License](https://github.com/MajhiRockzZ/infinity-gauntlet/blob/master/LICENSE)
+
+MIT © [MajhiRockzZ](https://www.twitter.com/MajhiRockzZ)
