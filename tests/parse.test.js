@@ -9,8 +9,7 @@ describe(parse, () => {
     expect(parse(tokens)).toEqual(ast);
   });
 
-  // Exercise 3 Begin
-  it.skip('should return a token with the type of StringLiteral for string tokens', () => {
+  it('should return a token with the type of StringLiteral for string tokens', () => {
     const tokens = [{ type: 'String', value: 'hello' }];
 
     const ast = { type: 'StringLiteral', value: 'hello' };
@@ -18,14 +17,13 @@ describe(parse, () => {
     expect(parse(tokens)).toEqual(ast);
   });
 
-  it.skip('should return a token with the type of NumericLiteral for number tokens', () => {
+  it('should return a token with the type of NumericLiteral for number tokens', () => {
     const tokens = [{ type: 'Name', value: 'x' }];
 
     const ast = { type: 'Identifier', name: 'x' };
 
     expect(parse(tokens)).toEqual(ast);
   });
-  // Exercise 3 End
 
   it.skip('should return an AST for a basic data structure', () => {
     const tokens = [
