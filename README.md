@@ -1,5 +1,13 @@
 # Infinity Gauntlet ✊
 
+My own Lisp-like programming language, using existing JavaScript run-time.
+
+Author | ⚡[Sumesh Majhi](https://github.com/MajhiRockzZ) ⚡ [![Twitter Follow](https://img.shields.io/twitter/follow/MajhiRockzZ?style=social)](https://twitter.com/MajhiRockzZ)
+------------ | -------------
+Version | ![GitHub package.json version](https://img.shields.io/github/package-json/v/MajhiRockzZ/infinity-gauntlet)
+License | ![GitHub](https://img.shields.io/github/license/MajhiRockzZ/infinity-gauntlet)
+Size | ![GitHub repo size](https://img.shields.io/github/repo-size/MajhiRockzZ/infinity-gauntlet)
+
 ![](./assets/main.gif)
 
 ## Code Example
@@ -30,19 +38,19 @@ Globally link the directory
  npm link
  ```
 
-* Method I
+**Method I**
 
     ```bash
       npm start
     ```
 
-* Method II
+**Method II**
 
     ```bash
       infinity-gauntlet
     ```
 
-* Method III
+**Method III**
 
     Or make a file with `.ig` file extension and run the below command in `infinity-gauntlet` directory.
 
