@@ -2,7 +2,7 @@
 
 ## Team
 
-This project is maintained by the following person(s) and a bunch of [awesome contributors]().
+This project is maintained by the following person(s) and a bunch of [awesome contributors](https://github.com/MajhiRockzZ/infinity-gauntlet/graphs/contributors).
 
 [![Sumesh Majhi](./assets/majhirockzz.png)](https://github.com/MajhiRockzZ) |
 :---: |
